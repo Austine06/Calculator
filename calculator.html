@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <video id="myVideo" autoplay muted loop src="Maths.mp4"></video>
+
+    <div class="calculator">
+        <div>
+            <input id="a-textarea" title="input">
+            <div class="button-menu">
+                <button type="button" title="Menu" class="menu-button">
+                    <img class="menu-icon" src="menu-burger.svg" alt="Menu">
+                </button>
+                <menu class="menu-list">
+                    <ul>
+                        <li class="one"><a href="">Home</a></li>
+                        <li class="two"><a href="">Quadratic Solver</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+        <div class="numbers">
+            <div>
+                <button type="button" class="number" data-num="9">9</button>
+                <button type="button" class="number" data-num="8">8</button>
+                <button type="button" class="number" data-num="7">7</button>
+                <button type="button" class="symbols" data-num="+">+</button>
+            </div>
+            <div>
+                <button type="button" class="number" data-num="6">6</button>
+                <button type="button" class="number" data-num="5">5</button>
+                <button type="button" class="number" data-num="4">4</button>
+                <button type="button" class="symbols" data-num="-">-</button>
+                
+            </div>
+            <div>
+                <button type="button" class="number" id="three" data-num="1">1</button>
+                <button type="button" class="number" data-num="0">0</button>
+                <button type="button" id="delete">Del</button>                
+                <button type="button" class="symbols" data-num="/">/</button>
+            </div>
+            <div class="last">
+                <button type="button" class="commands">ANS</button>
+                <button type="button" id="clear">Clear</button>
+                <button type="button" class="commands" id="equalto">=</button>
+                <button type="button" class="symbols" data-num="*">*</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
