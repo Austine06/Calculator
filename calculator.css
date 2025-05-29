@@ -186,7 +186,7 @@ body{
         right: 0;
         bottom:0;
         height: 75%;
-        width: 100%;
+        width: 100vw;
     }
 
     .numbers button{
